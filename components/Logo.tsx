@@ -1,4 +1,4 @@
 const Logo = () => {
-  return <h2>Weframetech</h2>;
+  return <span className="text-white text-lg tracking-wider">weframetech</span>;
 };
 export default Logo;

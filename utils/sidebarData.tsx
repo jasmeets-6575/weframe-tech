@@ -7,9 +7,9 @@ import { SlCalender } from "react-icons/sl";
 import { GiShop } from "react-icons/gi";
 import { LuListVideo } from "react-icons/lu";
 import { TbFileInvoice } from "react-icons/tb";
-import { DataItem } from "@/typings";
+import { SidebarDataItem } from "@/typings";
 
-const data: DataItem[] = [
+export const sidebarData: SidebarDataItem[] = [
   {
     logo: <BiSolidTachometer />,
     text: "Dashboard",
