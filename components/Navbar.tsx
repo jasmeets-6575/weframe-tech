@@ -33,7 +33,7 @@ const Navbar = () => {
 
       <div className="flex space-x-3 justify-between items-center px-2 ">
         <div className=" bg-[#c4c4c4] w-[44px] h-[44px] rounded-lg"></div>
-        <div>
+        <div className="h-full flex flex-col justify-between">
           <h4 className="text-[14px]">Instructor Day</h4>
           <h4 className="text-[#6418c3] text-[11px]">Super Admin</h4>
         </div>
@@ -42,4 +42,5 @@ const Navbar = () => {
     </div>
   );
 };
+
 export default Navbar;

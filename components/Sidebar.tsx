@@ -13,13 +13,13 @@ const Sidebar = () => {
       {/* Main Menu component */}
       <div className=" py-2 text-white">
         <span className="tracking-widest text-gray-300 text-sm">MAIN MENU</span>
-        <div>
+        <div className="mt-4">
           {sidebarData.map((item, index) => {
             const { logo, text, icon } = item;
             return (
               <div
                 key={index}
-                className="flex text-[var(--primary-main-color2)] items-center py-[7px] justify-between"
+                className="flex text-[var(--primary-main-color2)] items-center py-[7.5px] justify-between"
               >
                 <div className="flex gap-4 items-center">
                   <span className="text-xl">{logo}</span>
