@@ -9,8 +9,6 @@ const Sidebar = () => {
         <Logo />
         <GiHamburgerMenu className="text-[var(--primary-main-color2)] text-2xl" />
       </div>
-
-      {/* Main Menu component */}
       <div className=" py-2 text-white">
         <span className="tracking-widest text-gray-300 text-sm">MAIN MENU</span>
         <div className="mt-4">
