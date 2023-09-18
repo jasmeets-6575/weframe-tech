@@ -1,3 +1,5 @@
+"use client";
+
 import { VscSearch } from "react-icons/vsc";
 import { AiOutlineCaretDown } from "react-icons/ai";
 import { MdOutlineLanguage } from "react-icons/md";
