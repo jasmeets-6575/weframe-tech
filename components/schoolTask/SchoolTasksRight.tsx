@@ -13,8 +13,8 @@ const SchoolTasksRight = () => {
           </h3>
         </div>
       </div>
-      <div className="flex flex-col gap-[6px]">
-        <h1 className="text-end mr-7">Total Progress 60% </h1>
+      <div className="flex flex-col gap-[4px]">
+        <h1 className="text-end mr-7 text-[14px]">Total Progress 60% </h1>
         <ProgressBar color="bg-[#6418c3]" progressPercentage={60} />
       </div>
     </section>
