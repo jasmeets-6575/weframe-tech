@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex ">
         <Sidebar />
-        <div className="w-full">
+        <div className="w-full max-h-screen overflow-y-auto">
           <Navbar />
           {children}
         </div>

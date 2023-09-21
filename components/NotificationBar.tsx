@@ -5,7 +5,7 @@ import { HiMiniClipboardDocumentCheck } from "react-icons/hi2";
 
 const NotificationBar = () => {
   return (
-    <div className="flex space-x-4">
+    <div className="flex space-x-4 cursor-pointer">
       <NotificationComponent text={"9"} icon={<BiSolidBell />} />
       <NotificationComponent text={"5"} icon={<LuListVideo />} />
       <NotificationComponent

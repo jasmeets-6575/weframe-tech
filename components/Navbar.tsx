@@ -10,11 +10,12 @@ const Navbar = () => {
   const [search, setSearch] = useState<string>("");
 
   return (
-    <div className="flex justify-between items-center bg-[var(--foreground-color)] py-4 px-10 text-white ">
+    <div className="flex sticky top-0 justify-between items-center bg-[var(--foreground-color)] py-4 px-10 text-white ">
       <div className="relative">
         <input
           type="text"
           name="Search"
+          value={search}
           placeholder="Search here"
           className="py-3 outline-none px-[50px] bg-[var(--primary-main-color3)] text-[#726f94] rounded-full w-[22rem]"
           onChange={(e) => setSearch(e.target.value)}
@@ -23,11 +24,11 @@ const Navbar = () => {
           <VscSearch />
         </span>
       </div>
-      <span className="text-[var(--primary-main-color)] text-xs tracking-wider">
+      <span className="hidden lg:block text-[var(--primary-main-color)] text-xs tracking-wider">
         <a href="">OTHER MENUS</a>
       </span>
       <NotificationBar />
-      <div className=" flex items-center justify-center space-x-3 py-3 outline-none px-4 bg-[var(--primary-main-color3)] text-white rounded-full ">
+      <div className=" flex items-center justify-center cursor-pointer space-x-3 py-3 outline-none px-4 bg-[var(--primary-main-color3)] text-white rounded-full ">
         <MdOutlineLanguage className="text-lg" />
         <h2 className="text-sm">ENGLISH</h2>
         <AiOutlineCaretDown className="text-[#6418c3]" />
